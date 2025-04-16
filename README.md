@@ -15,8 +15,3 @@ Um gerenciador de tarefas simples em **JavaScript puro**, HTML e CSS.
 - HTML5  
 - CSS3  
 - JavaScript (Vanilla)  
-
-## 📥 Como Usar  
-1. Clone o repositório:  
-   ```bash  
-   git clone [URL_DO_REPO]  
