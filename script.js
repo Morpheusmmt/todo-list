@@ -97,7 +97,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
         
         cancelBtn.addEventListener('click', () => {
-            // Remover a confirmação e mostrar os botões normais
             taskElement.removeChild(confirmationDiv);
             actionBtns.style.display = 'flex';
         });
