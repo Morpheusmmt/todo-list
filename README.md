@@ -14,4 +14,4 @@ Um gerenciador de tarefas simples em **JavaScript puro**, HTML e CSS.
 ## 🛠️ Tecnologias  
 - HTML5  
 - CSS3  
-- JavaScript (Vanilla)  
+- JavaScript 
