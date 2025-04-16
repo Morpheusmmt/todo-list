@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gerenciador de Tarefas</h1>
+        
+        <div class="input-group">
+            <div class="task-inputs">
+                <input type="text" id="taskInput" placeholder="Título da tarefa..." autocomplete="off">
+                <textarea id="taskDescription" placeholder="Descrição (opcional)..."></textarea>
+            </div>
+            <button class="btn-add" id="addTaskBtn">Adicionar</button>
+        </div>
+        
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">Todas</button>
+            <button class="filter-btn" data-filter="active">Ativas</button>
+            <button class="filter-btn" data-filter="completed">Concluídas</button>
+        </div>
+        
+        <ul class="task-list" id="taskList">
+            <!-- Tarefas serão adicionadas aqui pelo JavaScript -->
+        </ul>
+        
+        <div class="empty-list" id="emptyList">
+            Nenhuma tarefa adicionada ainda.
+        </div>
+        
+        <div class="task-stats" id="taskStats">
+            <!-- Estatísticas serão atualizadas pelo JavaScript -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
